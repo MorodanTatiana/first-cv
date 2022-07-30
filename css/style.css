@@ -1,0 +1,52 @@
+/****************************************** TAG SELECTORS **************************************************/
+
+html {
+  color: #543E5C;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 22px;
+}
+ 
+h1{color: #CCA2E1;}
+
+h3{color: #FFC2E9;}
+
+h3:hover{font-size: 26px; color: #C689C6}     /*pseudo-class ":hover"*/
+
+body{
+  background-color: #FFF0F8;
+  text-align: left;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #543E5C;
+  border-width: 10px;
+  width: 13%;
+}
+
+a:link {color: #CCA2E1}
+a:visited {color: #C689C6}
+a:hover {color: #937DC2}
+a:active {color: #FCC5C0}
+
+
+
+/****************************************** CLASS SELECTORS *****************************************(ex. class="attribute circular")*/
+
+.style-text{font-family: 'Parisienne', cursive;}
+
+.rounded-table{
+  border:3px solid #CCA2E1;
+  border-radius: 7px;
+  width: 25%;
+  padding: 2.5px;
+}
+
+
+
+/****************************************** ID SELECTORS *****************************************(same as cl., it applies to a sg thg)*/
+
+#link {
+  color: hotpink;
+}
